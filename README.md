@@ -21,6 +21,7 @@ The project was to find the potential retirement of several employees within the
 The challenge project was to find potential mentors and mentees with the company. There was also an issue of duplicates which had to be fixed and counted.
 
 1. RIGHT JOINS were first used to create a table of potential employees who were fit to become a mentor.
-2. From this there was a realizaton of duplicates so the DISTINCT function was used to only grab the distinct values to create a new table.
-3. The COUNT function was then used to find the count of the different titles within the company.
-4. Lastly, a new table was created to list out the potential employees who were fit to become a mentee.
+2. From this there was a realizaton of duplicates so the PARTITION function was used to locate duplicate values and set each values using rnum.
+3. The data with the rnum value of 1 is then copied into a new table which ultimately removes the duplicates.
+4. The COUNT function was then used to find the count of the different titles within the company.
+5. Lastly, a new table was created to list out the potential employees who were fit to become a mentee.

@@ -32,6 +32,7 @@ The overall analysis helped put in perceptive of how many people within the comp
 Joins were useful to create new tables that the company could use to analyze the employees within the company. 
 New datasets such as emp_info, manager_info, and dept_info show oddities with the data such as lack of salary raises or that only 5 out of departments have managers or that some people have multiple titles.
 Below shows the manager_info
+
 | dept_no | dept_name        | emp_no | last_name    | first_name |
 |---------|------------------|--------|--------------|------------|
 | d003    | Human Resources  | 110183 | Ossenbruggen | Shirish    | 
@@ -39,8 +40,10 @@ Below shows the manager_info
 | d007    | Sales            | 111133 | Zhang        | Hauke      | 
 | d008    | Research         | 111534 | Kambil       | Hilary     | 
 | d009    | Customer Service | 111692 | Butterworth  | Tonny      | 
+
 The sales_team and sales_devl_team datasets were also created to show employees that were retiring who worked within the Sales and Development teams.
 Below shows the count of employees per department
+
 | count | dept_no |
 |-------|---------|
 | 2199  | d001    |
@@ -56,6 +59,7 @@ Below shows the count of employees per department
 The challenge analysis create two different datasets, one for potential mentors and the other for potential mentees. 
 The datasets show that there alot employees that are ready to mentor or be mentored.
 Below shows the count table of each titles
+
 | count | title              |
 |-------|--------------------|
 | 4692  | Engineer           |

@@ -1,5 +1,4 @@
 # Pewlett_Hackard_Analysis
-Using SQL to organize and create new databases as per manager's requests.
 
 ## Project Overview
 Used SQL to organize retirement info about employees born around 1952-1955 and hired around 1985-1988.
